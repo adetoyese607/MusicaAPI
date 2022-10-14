@@ -724,7 +724,10 @@ height: 99px;
    
 }
 @media screen and (max-width: 499px){
-.fa-shuffle, .fa-repeat{
+ .controller1 .fa-shuffle{
+    display: none;
+}
+.controller1 .fa-repeat{
     display: none;
 }
 i.fa-play{
@@ -749,7 +752,7 @@ i.fa-play{
     /* font-size: 40px; */
 }
 }
-@media screen and (max-width: 499px){
+@media screen and (max-width: 400px){
 
   .music-player{ 
     padding-left: 30px;
@@ -757,6 +760,9 @@ i.fa-play{
     justify-content: space-between;
     /* display: none; */
     /* background-color: red; */
+}
+.controller1 .fa-backward-step{
+    display: none;
 }
 
 
