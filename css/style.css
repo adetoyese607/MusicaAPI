@@ -750,9 +750,7 @@ i.fa-play{
 }
 }
 @media screen and (max-width: 499px){
- .music-controller{
-    display: none;
- }
+
   .music-player{ 
     padding-left: 30px;
     padding-right: 0px;
