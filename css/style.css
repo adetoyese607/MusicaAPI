@@ -756,7 +756,7 @@ i.fa-play{
 @media screen and (max-width: 400px){
 
   .music-player{ 
-    padding-left: 30px;
+    padding-left: 10px;
     padding-right: 0px;
     justify-content: space-between;
     /* display: none; */
