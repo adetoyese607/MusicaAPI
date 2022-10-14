@@ -327,6 +327,7 @@ place-items: center;
 
 .release{
     position: relative;
+    margin-bottom: 130px;
 }
 .release p{
     font-weight: 700;
@@ -547,14 +548,14 @@ opacity: 0;
     }
     
 main{
-    margin-left: 20px;
+    margin-left: 10px;
     /* background-color: firebrick; */
      margin-top: 24px;
 }
 .main-container{
     padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 25px;
+    padding-left: 0px;
+    padding-right: 10px;
 }
 
 .hero-section{
@@ -648,8 +649,8 @@ height: 99px;
 
 
 .music-player{ 
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     justify-content: space-between;
     /* background-color: red; */
 }
