@@ -732,7 +732,9 @@ i.fa-play{
     height: 34px;
     font-size: 15px;
 }
-
+.fa-backward-step{
+    display: none;
+  }
 
 .mainLoginInput.mobile{
     display: block;
@@ -748,9 +750,7 @@ i.fa-play{
 }
 }
 @media screen and (max-width: 499px){
-  .fa-backward-step{
-    display: none;
-  }
+ 
   .music-player{ 
     padding-left: 30px;
     padding-right: 0px;
