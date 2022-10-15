@@ -55,6 +55,7 @@ header form {
 .mainLoginInput {
     height: 24px;
     /* max-width: 130px; */
+    
     padding: 8px;
     font-size: 14px;
     /* background: #FFFFFF; */
@@ -604,10 +605,16 @@ i.fa-play {
 .mobile {
     display: none;
 }
+.fa-bars.mobile{
+    display: none;
+}
 
 
 
 @media screen and (max-width: 900px) {
+    .fa-bars.mobile{
+        display: block;
+    }
     header {
         display: flex;
     }
@@ -649,6 +656,8 @@ i.fa-play {
         padding-left: 27px;
         position: absolute;
         height: 100%;
+        transition: all 0.7s ease;
+        -webkit-transition: all 0.7s ease;
     }
 
     .row ul {
@@ -708,6 +717,8 @@ i.fa-play {
         display: block;
         font-size: 24px;
         cursor: pointer;
+        transition: all 0.7s ease;
+        -webkit-transition: all 0.7s ease;
     }
 
     .fa-bars:hover,
@@ -718,7 +729,7 @@ i.fa-play {
 
     .sidenav {
 
-        width: 0%;
+        width: 100%;
         left: 0;
         display: none;
         transition: all 0.7s ease;
