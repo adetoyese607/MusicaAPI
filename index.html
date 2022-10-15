@@ -5,19 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Musica</title>
     <link href="css/style.css" rel="stylesheet">
+    <script src="./js/main.js"></script>
     <script src="https://kit.fontawesome.com/8614b8cf5d.js" crossorigin="anonymous"></script>
   </head>
   <body>
+   
    <div class="main-container">
     
     <header>
+      <i class="fa fa-bars " onclick="openNav()"></i>
+      <img class="logo mobile" src="./assets/logo.svg">
       <form>
         <input class="mainLoginInput" type="text" placeholder="&#61442;     Search Artist"> 
         <input class="mainLoginInput mobile" type="text" placeholder="&#61442; "> 
 
       </form>
-  
+     
     </header>
+    <div class="sidenav" id="mySidenav">
+   <div class="row">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <ul>
+      <li><a class="active">
+        <img  src="./assets/icons/Home.png">
+        <p>Home</p>
+      </a></li> 
+      <li><a>
+        <img src="./assets/icons/playlist.png">
+        <p>My Collection</p>
+      </a></li>
+      <li><a>
+        <img src="./assets/icons/radio.png">
+        <p>Radio</p>
+      </a></li>
+      <li><a>
+        <img src="./assets/icons/videos.png">
+        <p>Music Videos</p>
+      </a></li>  
+      <li><a>
+        <img src="./assets/icons/profile.png">
+        <p>Profile</p>
+      </a></li>
+      <li><a>
+        <img src="./assets/icons/Logout.png">
+        <p>Logout</p>
+      </a></li>
+    </ul>
+
+    </div>
+   </div>
+   
+
+
+
+
+
+
+
+
+
     <aside>
       <img class="logo" src="./assets/logo.svg">
 
