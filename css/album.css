@@ -260,4 +260,7 @@ span.mobile{
     padding-right: 10px;
 }
 
+.music img.desktop{
+    display: none;
+}
 }
