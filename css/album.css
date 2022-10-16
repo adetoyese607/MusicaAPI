@@ -169,3 +169,95 @@ color: #FFFFFF;
     /* background-color: red; */
 
 }
+span.mobile{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    display: none;
+    /* or 14px */
+    
+    
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 800px) {
+
+    .album{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 0px;
+        align-items: flex-start;
+        place-items: center ;
+    }
+    .infomation{
+        padding-left: 120px;
+        
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 619px) {
+    .desktop{
+        display: none;
+    }
+    span.mobile{
+        display: block;
+    }
+    .lead{
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        margin-bottom: 48px;
+        /* justify-content: end; */
+    }
+    .lead .image{
+        max-height: 289px;
+    }
+    .lead-text h3{
+        font-size: 30px;
+    }
+    .buttons{
+        width: 100%;
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 9px;
+    }
+    .music .artwork{
+        display: flex;
+        gap: 20px;
+        place-items: center;
+        flex-basis: 20%;
+        max-width: 20%;
+        /* background-color: beige; */
+    }
+    .music .album{
+       
+        display: flex;
+        flex-direction: column;
+        flex-basis: 64%;
+        align-items: flex-start;
+        gap: 6px;
+        max-width: 64%;
+    }
+    .music .album, .infomation{
+        display: flex;
+        /* flex-basis: 43%;
+        max-width: 43%; */
+        justify-content: space-between;
+    }
+    .infomation{
+        padding-left: 0px;
+      gap: 10px;
+        flex-direction:column-reverse;
+        align-items: flex-end;
+        flex-basis: 16%;
+        max-width: 16%;
+    }
+.infomation .fa-solid{
+    padding-right: 7px;
+}
+.songs .music{
+    padding-right: 10px;
+}
+
+}
