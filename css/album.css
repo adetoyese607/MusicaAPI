@@ -262,5 +262,6 @@ span.mobile{
 
 .music img.desktop{
     display: none;
+    visibility: hidden;
 }
 }
