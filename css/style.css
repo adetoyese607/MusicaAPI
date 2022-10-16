@@ -27,6 +27,7 @@ a{
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 55px;
+    width: 100%;
 }
 
 header {
@@ -703,7 +704,7 @@ height: 153px; */
     header {
 
         position: relative;
-        width: 100%;
+        /* width: 100%; */
         justify-content: space-between;
         place-items: center;
 
@@ -778,6 +779,7 @@ height: 153px; */
         padding-top: 20px;
         padding-left: 0px;
         padding-right: 10px;
+        width: 100%;
     }
 
     .hero-section {
