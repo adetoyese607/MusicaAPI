@@ -12,7 +12,11 @@ body {
     z-index: 10;
     position: relative;
 }
-
+a{
+    text-decoration: none;
+    color:#fff ;
+    
+}
 * {
     margin: 0;
     padding: 0;
@@ -460,7 +464,7 @@ height: 153px; */
     color: #EFEEE0;
 }
 
-i.fa-play {
+.music-controller i.fa-play {
     /* background-color: red; */
     display: flex;
     place-content: center;
@@ -709,6 +713,7 @@ i.fa-play {
         position: relative;
         margin-left: 0;
         margin-bottom: 0;
+        right: 15px;
 
     }
 
@@ -968,7 +973,7 @@ i.fa-play {
         display: none;
     }
 
-    i.fa-play {
+  .music-controller  i.fa-play {
         width: 34px;
         height: 34px;
         font-size: 15px;

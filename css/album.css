@@ -1,0 +1,162 @@
+body {
+    background: linear-gradient(180deg, rgba(29, 33, 35, 0.8) 0%, #1D2123 61.48%), 
+    url(/assets/Lead-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 100%; */
+    background-size: cover;
+}
+
+
+.lead{
+    display: flex;
+    gap: 27px;
+    margin-bottom: 48px;
+    /* justify-content: end; */
+}
+.lead img.image{
+    min-width: 284px;
+min-height: 288.97px;
+border-radius: 35px;
+}
+.lead .lead-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+.lead-text h3{
+    font-weight: 700;
+font-size: 35px;
+line-height: 120%;
+/* identical to box height, or 42px */
+
+
+color: #A4C7C6;
+}
+.lead-text .description{
+    font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+/* or 17px */
+
+
+/* light */
+
+color: #EFEEE0;
+}
+.lead-text .duration{
+    font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+margin-bottom: 30px;
+color: #EFEEE0;
+}
+.buttons{
+    display: flex;
+    gap: 9px;
+}
+.lead button{
+    padding: 11px 12px;
+    border-radius: 32px;
+    border: transparent;
+    place-content: center;
+    place-items: center;
+background: rgba(255, 255, 255, 0.07);
+backdrop-filter: blur(5px);
+display: flex;
+gap: 10px;
+
+}
+
+button .fa{
+    
+font-size: 14px;
+}
+button .fa-heart{
+    color: #E5524A;
+    /* padding-top: 2px; */
+    font-size: 14px;
+    }
+button .fa-play{
+    font-size: 8px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    padding-bottom: 0.9px;
+    padding-left: 0.9px;
+    width: 15px;
+    height: 15px;
+    background: #FACD66;
+    /* padding: 2px; */
+    /* background-color: #FFFFFF; */
+    border-radius: 50%;
+}
+.lead button p{
+    font-weight: 100;
+font-size: 12px;
+line-height: 120%;
+
+color: #FFFFFF;
+}
+
+
+
+.songs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: red; */
+}
+.songs .music{
+    display: flex;
+    place-items: center;
+    flex-basis: 100%;
+    max-width: 100%;
+    /* justify-content: space-between; */
+    /* justify-items: center; */
+    padding: 8px 10px;
+    background: rgba(51, 55, 59, 0.37);
+backdrop-filter: blur(5px);
+padding-right: 30px;
+border-radius: 15px;
+    /* background-color: red; */
+}
+.music .artwork{
+    flex-basis: 15%;
+    max-width: 15%;
+    display: flex;
+    gap: 20px;
+    /* background-color: red; */
+    place-items: center;
+    
+}
+
+.music p{
+    /* align-items:flex-start ; */
+    text-align: left;
+    flex-basis: 25%;
+    max-width: 25%;
+    
+/* align-self: center; */
+    text-align: center;
+    /* background-color: red; */
+    font-weight: 400;
+font-size: 12px;
+line-height: 120%;
+
+/* or 14px */
+
+
+color: #FFFFFF;
+}
+.music .fa-solid{
+    flex-basis: 10%;
+    max-width: 10%;
+    color: #FACD66;
+    font-size: 15px;
+    text-align: end;
+    /* background-color: red; */
+
+}
