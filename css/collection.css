@@ -1,0 +1,142 @@
+ul.tabs{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-items: center;
+    align-content: center;
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    width: 100%;
+    gap: 10px;
+}
+.tabs .tab{
+   padding: 10px 0;
+text-align: center;
+    position: relative;
+    border: 1px solid #EFEEE0;
+    border-radius: 27px;
+}
+.tab a{
+    text-decoration: none;
+    padding: 10px 45px;
+    font-weight: 400;
+font-size: 14px;
+display: inline;
+line-height: 120%;
+
+text-align: center;
+color: #EFEEE0;
+    cursor: pointer;
+}
+ .tabs .tab.is-active {
+    background: #FACD66;
+    border: transparent;
+}
+ .tabs .tab.is-active a{
+   font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #1D2123;    
+}
+
+.pages{
+    margin-top: 23px;
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+}
+
+
+.pages .page{
+    display: none;
+ transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+}
+
+
+.pages .page.is-active {
+    display: block;
+   opacity: 1;
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease; 
+    position: relative;
+}
+
+
+
+
+
+
+.pages .page.is-active  {
+    display: flex;
+    gap: 24px;
+}
+.pages .page.is-active img{
+    width: 213px;
+    height: 234px;
+    background: linear-gradient(179.89deg, rgba(0, 0, 0, 0) 0.1%, rgba(15, 18, 19, 0.85) 80.67%);
+border: 1px solid rgba(255, 255, 255, 0.03);
+border-radius: 20px;
+}
+.collection-card{
+    position: relative;
+}
+.collection-card .col-text{
+    position: absolute;
+   bottom: 22px;
+   left: 19px;
+}
+
+.col-text .likes{
+    display: none;
+}
+
+@media screen and (max-width: 899px){
+   
+   
+    .collection-card{
+        position: relative;
+        width: 100%;
+    }
+    .pages .page.is-active img{
+        background: linear-gradient(179.89deg, rgba(0, 0, 0, 0) 0.1%, rgba(15, 18, 19, 0.85) 80.67%);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+    }
+}
+@media screen and (max-width: 499px){
+    .pages .page.is-active img{
+        width: 100%;
+        height: 234px;
+    }
+    .pages .page.is-active  {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;   
+    }
+    .col-text{
+        width:calc(100% - 40px);
+    }
+.col-text .likes{
+    display: flex;
+    width: 100%;
+    margin-top: 9px;
+    justify-content: space-between;
+}
+.col-text .likes p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+position: relative;
+align-self: end;
+color: #FFFFFF;
+}
+.col-text .likes .fa{
+    font-size: 16px;
+    padding: 12px;
+    padding-left: 14px;
+    border-radius: 50%;
+    color: #FACD66;
+    background-color: #645631;
+}
+
+    }

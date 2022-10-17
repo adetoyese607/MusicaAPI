@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Musica</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/collection.css" rel="stylesheet">
+    <script src="./js/main.js"></script>
+    <script src="https://kit.fontawesome.com/8614b8cf5d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+   
+   <div class="main-container">
+    
+    <header>
+      <i class="fa fa-bars mobile " onclick="openNav()"></i>
+      <img class="logo mobile" src="./assets/logo.svg">
+      <form>
+        <input class="mainLoginInput" type="text" placeholder="&#61442;     Search Artist"> 
+        <input class="mainLoginInput mobile" type="text" placeholder="&#61442; "> 
+
+      </form>
+     
+    </header>
+    <div class="sidenav" id="mySidenav">
+   <div class="row">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <ul>
+      <li><a  >
+        <img  src="./assets/icons/Home3.png">
+        <p>Home</p>
+      </a></li> 
+      <li><a class="active">
+        <img src="./assets/icons/music-library-2.svg">
+        <p>My Collection</p>
+      </a></li>
+      <li><a>
+        <img src="./assets/icons/radio.png">
+        <p>Radio</p>
+      </a></li>
+      <li><a>
+        <img src="./assets/icons/videos.png">
+        <p>Music Videos</p>
+      </a></li>  
+      <li><a>
+        <img src="./assets/icons/profile.png">
+        <p>Profile</p>
+      </a></li>
+      <li><a>
+        <img src="./assets/icons/Logout.png">
+        <p>Logout</p>
+      </a></li>
+    </ul>
+
+    </div>
+   </div>
+   
+
+
+
+
+
+
+
+
+
+    <aside>
+      <img class="logo" src="./assets/logo.svg">
+
+      <div class="appnav">
+        <a href="#"> <img class="active" src="./assets/icons/Home3.png"></a> 
+        <a href="#"> <img src="./assets/icons/music-library-2.svg"></a>
+        <a href="#">  <img src="./assets/icons/radio.png"></a>
+      
+        <a href="#"> <img src="./assets/icons/videos.png"></a>
+       
+      </div>
+      <div class="appnav">
+        <img src="./assets/icons/profile.png">
+        <img src="./assets/icons/Logout.png">
+  
+      </div>
+    </aside>
+    <main>
+
+
+
+        <ul class="tabs">
+            <li class="tab one is-active"><a data-switcher data-tab="1">My Collection</a></li>
+            <li class="tab two"><a data-switcher data-tab="2">Like</a></li>
+          
+        </ul>
+    </nav>
+
+    <section class="pages">
+        <div class="page  is-active " data-page="1">
+
+<div class="collection-card">
+    <img src="./assets/Rectangle 16.png">
+    <div class="col-text">
+        <p class="col-title">Limit</p>
+        <p class="col-artist">John watts</p>
+        <div class="likes">
+            <p>23m likes</p>
+            <i class="fa fa-play"></i>
+        </div>
+    </div>
+    </div>
+    <div class="collection-card">
+        <img src="./assets/Rectangle 19.png">
+        <div class="col-text">
+            <p class="col-title">Limit</p>
+            <p class="col-artist">John watts</p>
+            <div class="likes">
+                <p>23m likes</p>
+                <i class="fa fa-play"></i>
+            </div>
+        </div>
+        </div>
+        <div class="collection-card">
+            <img src="./assets/Rectangle 14.png">
+            <div class="col-text">
+                <p class="col-title">Limit</p>
+                <p class="col-artist">John watts</p>
+                <div class="likes">
+                    <p>23m likes</p>
+                    <i class="fa fa-play"></i>
+                </div>
+            </div>
+            </div>
+            <div class="collection-card">
+                <img src="./assets/Rectangle 21.png">
+                <div class="col-text">
+                    <p class="col-title">Limit</p>
+                    <p class="col-artist">John watts</p>
+                    <div class="likes">
+                        <p>23m likes</p>
+                        <i class="fa fa-play"></i>
+                    </div>
+                </div>
+                </div>
+   
+           </div>
+          
+        <div class="page two" data-page="2">
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    
+   </div>
+   <div class="music-player">
+   
+    <div class="theme">
+      <img src="./assets/Rectangle 21.png">
+     <div class="info">
+      <p class="title">Seasons in</p>
+      <p class="artist">James</p>
+     </div>
+    </div>
+    <div class="music-controller">
+      <div class="controller1">
+        <i class="fa fa-shuffle"></i>
+        <i class="fa-solid fa-backward-step"></i>
+        <i class="fa-solid fa-play"></i>
+        <i class="fa-solid fa-forward-step"></i>
+      <i class="fa-solid fa-repeat"></i>
+      </div>
+      <div class="controller2">
+        <input type="range" min="0" max="100" value="0">
+        <div class="control" id="control"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+    <div class="volume">
+      <i class="fa-solid fa-volume-high"></i>
+      <input type="range" min="0" max="100" value="40">
+      <div class="vol-control" id="vol-control"></div>
+        <div class="vol-dot"></div>
+    </div>
+   </div>
+</body>
+</html
