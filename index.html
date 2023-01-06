@@ -26,7 +26,7 @@
    <div class="row">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <ul>
-      <li><a  class="active">
+      <li><a  class="active" href="index.html">
         <img  src="./assets/icons/Home.png">
         <p>Home</p>
       </a></li> 
@@ -68,7 +68,7 @@
       <img class="logo" src="./assets/logo.svg">
 
       <div class="appnav">
-        <a href="#"> <img class="active" src="./assets/icons/Home.png"></a> 
+        <a href="index.html"> <img class="active" src="./assets/icons/Home.png"></a> 
         <a href="collection.html"> <img src="./assets/icons/playlist.png"></a>
         <a href="#">  <img src="./assets/icons/radio.png"></a>
       
@@ -118,6 +118,7 @@
 <div class="charts">
   <h2 class="head">Top Chart</h2>
   <div class="cards">
+   <a href="first-album.html" >
     <div class="card">
       <div class="card-text">
         <img src="./assets/card1.png">
@@ -131,7 +132,9 @@
         <img src="./assets/icons/Heart.png">
       </div>
     </div>
+   </a>
 
+   <a href="second-album.html">
     <div class="card">
       <div class="card-text">
         <img src="./assets/card2.png">
@@ -145,6 +148,7 @@
         <img src="./assets/icons/Heart.png">
       </div>
     </div>
+   </a>
 
    <a href="album.html">
     <div class="card">
@@ -231,7 +235,7 @@
       <div class="controller1">
         <i class="fa fa-shuffle"></i>
         <i class="fa-solid fa-backward-step"></i>
-        <i class="fa-solid fa-play"></i>
+        <i class="fa-solid fa-play" id="play" onclick="Play()"></i>
         <i class="fa-solid fa-forward-step"></i>
       <i class="fa-solid fa-repeat"></i>
       </div>

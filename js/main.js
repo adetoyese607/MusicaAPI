@@ -29,3 +29,31 @@ function SwitchPage (page_id) {
     const next_page = document.querySelector(`.pages .page[data-page="${page_id}"]`);
      next_page.classList.add('is-active');
 }
+
+const music = new Audio(`rock.mp3`);
+// music.play()
+const songss = [
+{
+  id: '1',
+songName: `Let me love you ~
+ <span class="artist">Krisx </span>`,
+poster: 'assets/Rectangle 25.png'
+},
+{
+  id: '2',
+songName: `Watin man go do ~ 
+ <span class="artist">Burna </span>`,
+poster: 'assets/Rectangle 26.png'
+},
+{
+  id: '3',
+songName: `Stand strong ~ 
+<span class="artist">Davido</span>`,
+poster: 'assets/Rectangle 27.png'
+}
+
+]
+
+Array.from(document.getElementsByClassName('music')).forEach((element, i)=>{
+  element.getElementsByTagName('img')[0].src = songss[i].poster;
+})
